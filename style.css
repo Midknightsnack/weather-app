@@ -1,0 +1,42 @@
+*::after, *::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    background-color: aliceblue;
+    color:rgb(0, 89, 255);
+    font-family: sans-serif;
+}
+
+.header{
+    display:flex;
+    align-items: center;
+}
+
+.header-left{
+    display: flex;
+    width:50%;
+    align-items: center;
+    justify-content: center;
+    margin:0.5rem;
+    padding: 0.5rem;
+    border-right: 2px solid rgb(0, 89, 255);
+}
+
+.bx-sun{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    font-size: 80px;
+}
+
+.bx-sun.large{
+    width: 80px;
+    height: 80px;
+}
+
+.header-current-temp{
+    font-size: 3rem;
+    margin-left: 1rem;
+}
